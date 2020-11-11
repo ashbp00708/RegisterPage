@@ -1,0 +1,44 @@
+.title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(15, 15, 107);
+    margin-top: 50px;
+}
+.register {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(15, 15, 107);
+
+}
+.reg-form {
+    background-color: rgb(201, 224, 235);
+    text-align: center;
+    border: 2px rgb(15, 15, 107);
+    border-style: ridge;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    padding: 5px 5px 5px 5px;
+}
+.nav-bar {
+    background-color: rgb(201, 224, 235);
+    color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px
+    
+}
+
+nav ul li{
+    display:inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+
+}

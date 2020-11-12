@@ -1,44 +1,142 @@
 .title {
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: rgb(15, 15, 107);
     margin-top: 50px;
 }
 .register {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
     text-align: center;
     color: rgb(15, 15, 107);
 
 }
 .reg-form {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(201, 224, 235);
     text-align: center;
     border: 2px rgb(15, 15, 107);
     border-style: ridge;
+    border-width: 20px;
     margin-top: 50px;
-    margin-right: 250px;
-    margin-bottom: 200px;
-    margin-left: 200px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
     padding: 5px 5px 5px 5px;
+    width: 35%;
+    height: 60%;
+
 }
 .nav-bar {
-    background-color: rgb(201, 224, 235);
+    background-color: rgb(210, 233, 243);
     color: black;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 50px
+    height: 50px;
     
 }
 
-nav ul li{
+nav ul li {
     display:inline-block;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
+    color: rgb(15, 15, 107);
+    font-size: 12px;
+}
+.homebutton {
+    position: relative;
+    top: -6px;
+    left: -30px;
+    
+}
+.button1 {
+    background-color: rgba(255, 182, 193, 0.4);
+    border: 3px solid rgb(27, 27, 139);
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+.loginbutton {
+    position: relative;
+    top: -6px;
+    left: -20px;
+}
+.button2 {
+    background-color: rgba(255, 182, 193, 0.4);
+    border: 3px solid rgb(27, 27, 139);
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.contactbutton {
+    position: relative;
+    top: -6px;
+    left: -10px;
+}
+.button3 {
+    background-color: rgba(255, 182, 193, 0.4);
+    border: 3px solid rgb(27, 27, 139);
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    font-weight: bold;
+}
 
+.inputfields { 
+    display: flex;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    height: 25px;
+    border: 2px solid rgb(15, 15, 107);
+    border-radius: 12px;
+
+}
+.selecmeth {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(15, 15, 107);
+    margin-top: 15px;
+    border: 2px rgb(15, 15, 107);
+    border-style: ridge;
+    border-width: 5px;
+}
+body {
+    background-color: rgba(255, 182, 193, 0.4);
+  
+}
+.PrefMeth {
+    position: static;
+    top: 50px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+
+    
+}
+.radioinput1label {
+    display: block;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(15, 15, 107);
 }
